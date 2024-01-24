@@ -1,0 +1,188 @@
+/*=============== HEADER GT BTN ================*/
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+    visibility: hidden !important;
+}
+.top_lang{
+    margin: 1px 7px 0px 27px;
+    padding: 0px;
+    float: right;
+}
+.skiptranslate{
+    background-color: #f3eeee;
+}
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf{
+    z-index: 9724790009779!important;
+    top:0;
+    left:unset;
+    right:-5px;
+    display:none!important;
+    border-radius:50%;
+    border:2px solid gold;
+    background-color: blueviolet;
+}
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO{
+    width:70px!important;
+    height:70px!important;
+    background-color: burlywood;
+}
+/*hide google translate link | logo | banner-frame */
+.goog-logo-link,.gskiptranslate,.goog-te-gadget span,.goog-te-banner-frame,#goog-gt-tt, .goog-te-balloon-frame,div#goog-gt-{
+    display: none!important;
+}
+.goog-te-gadget {
+    color: transparent!important;
+    font-size:0px;
+    padding: 0;
+    margin-right: 20px;
+    display: block;
+    float: right !important;
+    /*background: brown;*/
+}
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+.pace-done{
+    position: unset !important;
+}
+.goog-te-combo option{
+    font-size: 14px;
+    padding: 8px 16px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 23px;
+    white-space: nowrap;
+}
+ /*google translate Dropdown */
+#google_translate_element select{
+    background:#f6edfd;
+    color:#555;
+    border: none;
+    border-radius:3px;
+    padding: 12px 16px;
+}
+
+/*=============== MULTILANG INDEX ================*/
+.lanselect {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+} 
+.checkbox {
+    display : none;
+}
+.cm-toggle{
+	position: relative;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	margin: 10px;
+    /*-webkit-appearance: none;*/
+    -webkit-tap-highlight-color: transparent;
+}
+/* To create surface of toggle button */
+.cm-toggle:after {
+	content: '';
+	width: 40px;
+	height: 15px;
+	display: inline-block;
+	background: #0bcf6c;
+	border-radius: 18px;
+	clear: both;
+    box-sizing: unset;outline: none;border: none;
+}
+/* Contents before checkbox to create toggle handle */
+.cm-toggle:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -3px;
+	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    border: none;
+    outline: none;
+    box-sizing: unset;
+}
+/* Shift the handle to left on check event */
+.cm-toggle:checked:before {
+	left: 32px;border: none;
+	/*box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);outline: none;*/
+}
+/* Background color when toggle button will be active */
+.cm-toggle:checked:after {
+	background: #0bcf6c;border: none;outline: none;
+}
+input[type="checkbox"]:checked {
+    box-sizing: unset;outline: none;border: none;
+}
+.cm-toggle,
+.cm-toggle:before,
+.cm-toggle:after,
+.cm-toggle:checked:before,
+.cm-toggle:checked:after {
+	transition: ease .3s;
+	-webkit-transition: ease .3s;
+	-moz-transition: ease .3s;
+	-o-transition: ease .3s;
+    box-sizing: unset;outline: none;border: none;
+}
+.toph4{
+    padding-left: 25px;
+    font-weight:bold;
+    color:grey;
+    font-size:18px;
+}
+.addbutton{
+    margin-left: 10px;
+    background: none;
+    color: #25c3d1;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.shortname{
+    float: left;
+    padding: 25px 15px;
+}
+.shortname span{
+    height: 15px;
+    width: 15px;
+    padding: 15px;
+    color: #141313;
+    border: 1px solid #b9aeae;
+    border-radius: 64% !important;
+}
+.shortname_label{
+    float: left;padding: 25px 1px;
+}
+.short_check{
+    text-align: -webkit-center;
+    padding: 25px;
+}
+.shortname_lang{
+    padding-left: 30px!important;
+    font-size: larger;
+    font-weight: 600;
+}
+.bottomh4{
+    padding-left: 25px;
+    font-weight:bold;
+    font-size:18px;
+}
+.bottomPR{
+    font-size: 14px;
+    float: left;
+    margin-left: 25px;
+}
+.bottomsel{
+    float: inline-end;
+    width: 25%;
+}

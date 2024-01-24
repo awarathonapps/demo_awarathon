@@ -1,0 +1,154 @@
+/* here you can put your own css to customize and override the theme */
+body {
+    background-color: #004369;
+}
+.project-one-fourth .dash-title:hover {color:#db1f48; transition: all 0.5s ease 0s;}
+
+/*LAYOUT*/
+.page-header.navbar .page-logo a{
+	width: 100%;
+}
+.page-header.navbar .page-logo .logo-default{
+	/* margin:6px 19px 0; */
+	margin: 2px 0;
+    width: -webkit-fill-available !important;
+    height: 50px !important;
+}
+.page-header.navbar, .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle {background-color: #004369;}
+
+/* .page-sidebar-wrapper{position:fixed;} */
+/* .page-sidebar-wrapper:hover{ */
+	/* position:static; */
+	/* overflow-y: scroll !important; */
+/* } */
+.page-sidebar, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover {background-color: #004369 !important;}
+.page-sidebar .page-sidebar-menu>li.active.open>a, .page-sidebar .page-sidebar-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.active>a, page-sidebar .page-sidebar-menu>li.active.open>a:hover, .page-sidebar .page-sidebar-menu>li.active>a:hover {
+		background: #db1f48 !important;
+		color: #fff;
+	}
+.page-sidebar .page-sidebar-menu .sub-menu>li.open>a {
+	/* background-color:#959595 !important; */
+	background-color: #d9d9d9 !important;
+    color: #db1f48;
+}
+
+.page-sidebar .page-sidebar-menu>li>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a, .page-sidebar .page-sidebar-menu .sub-menu>li>a { font-weight: bold;}
+.page-sidebar .page-sidebar-menu>li.heading>h3 { font-weight: 600}
+.page-sidebar .page-sidebar-menu .sub-menu>li>a {color: #d9d9d9;}
+.page-sidebar .page-sidebar-menu>li.open>a, .page-sidebar .page-sidebar-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li:hover>a {
+    background: #d9d9d9;
+    color: #db1f48;
+}
+.page-sidebar .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar .page-sidebar-menu .sub-menu>li:hover>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.active>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li.open>a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu>li:hover>a {
+    background: none !important;
+	color: #db1f48;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu>li>a>i[class*=icon-]{
+    color: #db1f48;
+}
+
+.page-content{padding-bottom: 50px !important;}
+
+
+/*GENERAL CHANGES*/
+.font-orange-sharp{color:#db1f48 !important;}
+.btn-orange, .btn-orange:focus{
+	color: #fff;
+    background-color: #db1f48;
+    border-color: #db1f48;
+}
+.btn-orange:hover{
+	background-color: #d4002e !important;
+}
+.btn-outline.orange{
+	border-color: #db1f48 !important;
+	color: #db1f48 !important;
+}
+.btn-outline.orange:hover, .btn-outline.orange:focus{
+	background-color: #db1f48 !important;
+	color: #fff !important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	background-color: #db1f48 !important;
+	border-color: #db1f48 !important;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+	color: #004369 !important;
+}
+.daterangepicker .ranges li.active, .daterangepicker .ranges li:hover, .daterangepicker td.active, .daterangepicker td.active:hover {
+    background: #db1f48 !important;
+    border: 1px solid #db1f48 !important;
+	color: #fff !important;
+}
+.daterangepicker .ranges li{ color: #004369 !important;}
+.daterangepicker .input-mini.active{ border: 1px solid #db1f48 !important; }
+
+
+/*FOOTER*/
+.page-footer{
+	text-align:center;
+	height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #004369;
+	z-index: 3;
+	padding: 2px;
+    /* background: #fff; */
+}
+.page-footer .page-footer-inner {
+    float: none;
+	color: #fff;
+	font-weight: bold;
+}
+.footer-logo{
+	width: 130px;
+}
+
+
+.page-header.navbar .page-logo .logo-default{
+	width: auto !important;
+	height: 45px !important;
+	max-width: -webkit-fill-available !important;
+}
+.page-header.navbar, .page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle{
+	background: #fff !important;
+}
+/* .page-header.navbar, .page-header.navbar .page-logo{ */
+	/* height: 50px !important; */
+/* } */
+/* .page-header-fixed .page-container{ */
+	/* margin-top: 50px !important; */
+/* } */
+/* .page-container-bg-solid .page-bar, .page-content-white .page-bar{ */
+	/* background-color: #fff !important; */
+/* } */
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+	color: #db1f48 !important;
+	font-weight: 600;
+}
+.page-header.navbar .page-logo a{ text-align: center; }
+/*.page-content{
+	background-color: #e8e8e8 !important;
+}*/
+.page-bar{
+	background-color: #d9d9d9 !important;
+}
+.page-container-bg-solid .page-bar .page-breadcrumb>li>a, .page-container-bg-solid .page-bar .page-breadcrumb>li>span, .page-content-white .page-bar .page-breadcrumb>li>a, .page-content-white .page-bar .page-breadcrumb>li>span{
+	color: #666 !important;
+}
+
+/* Dashboard changes */
+#region_table{
+	overflow-x: auto;
+	overflow-y: hidden
+}
+.freeze-tb-column{
+	/* display: block; */
+	background: #e7ecf1;
+	position: sticky;
+	left: 0;
+	z-index: 2;
+}
+
